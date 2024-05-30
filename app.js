@@ -8,7 +8,7 @@ const app= express();
 app.use(cors());
 
 app.get('/', (req,res) => {
-    res.send('<h1>Pagina de Inicio</h1>');
+    res.send('<h1>Pagina de Inicio actualizada</h1>');
 })
 
 app.use(express.json()) //middleware para que pueda accederse al body en la petición POST
